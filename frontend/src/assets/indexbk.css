@@ -1,10 +1,5 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
-
 :root {
-  font-family: 'JetBrains Mono', system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
 
@@ -16,24 +11,6 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
-
-.drop-effect-red {
-  will-change: filter;
-  transition: filter 300ms;
-}
-
-.drop-effect-red:hover {
-    filter: drop-shadow(0 0 0.75rem #ef4444);
-}
-
-.drop-effect-green {
-  will-change: filter;
-  transition: filter 300ms;
-}
-
-.drop-effect-green:hover {
-    filter: drop-shadow(0 0 0.75rem #3B5435);
 }
 
 a {
@@ -53,10 +30,10 @@ body {
   min-height: 100vh;
 }
 
-/* h1 {
+h1 {
   font-size: 3.2em;
   line-height: 1.1;
-} */
+}
 
 button {
   border-radius: 8px;
