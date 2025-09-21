@@ -8,12 +8,13 @@ function App() {
   return (
     <>
       <ClerkHeader />
-      <div className="flex flex-col items-center justify-center min-h-screen text-center">
+      <div className="flex flex-col items-center justify-center h-screen text-center">
         <h1 className="text-[clamp(1rem,3vw,4rem)] transition-all drop-effect-red font-jetbrains mt-2">Everything you need to complete the Athena Award.</h1>
         <h1 className="text-[clamp(.8rem,2vw,1.5rem)] font-jetbrains mt-1">Track progress, find travel, and calculate prizes, all in one place.</h1>
-        <button className="bg-[#3B5435] text-white font-bold py-2 px-4 rounded drop-effect-green outline-[#567d52]">
-            Button
+        <button className="bg-[#3B5435] text-white font-bold py-2 px-4 rounded drop-effect-green outline-[#567d52] mt-2">
+            Start Now
         </button>
+      </div>
         {/* <img src="https://parthenon.hackclub.com/elements/athena-orpheus.png"
           className="logo w-64 h-auto" 
           alt="Athena Award Orpheus" 
@@ -23,7 +24,7 @@ function App() {
         {/* <a href="https://react.dev" target="_blank">
           <img src={reactLogo} className="logo react" alt="React logo" />
         </a> */}
-      </div>
+      {/* </div> */}
       {/* <div className="card">
         <button>
           count is {count}
