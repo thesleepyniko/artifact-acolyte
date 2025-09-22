@@ -77,12 +77,16 @@ button {
   cursor: pointer;
   transition: border-color 0.25s;
 }
-button:hover {
+/* button:hover {
   border-color: #646cff;
-}
+} */
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
+}
+
+.green-button:hover {
+  border-color: #567d52
 }
 
 @media (prefers-color-scheme: light) {
